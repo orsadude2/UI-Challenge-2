@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UI Challenge 2</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UI Challenge - Custom Form Elements</title>
+  </head>
+  <body>
+    <form id="form">
+      <fieldset>
+        <legend></legend>
+        <label for="textinput">text input </label>
+        <input name="textinput" type="text" />
+        <label for="textinputerror">Text input w/validation error </label>
+        <input name="textinputerror" type="text" />
+        <label for="selectbox">Select Box </label>
+        <input name="selectbox" type="text"/>
+        <label for="checkbox">Checkbox </label>
+        <input name="checkbox" type="text"/>
+        <label class="container">One
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+        <button type="submit">Create a new store</button>
+      </fieldset>
+    </form>
+  </body>
 </html>
